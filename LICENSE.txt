@@ -1,0 +1,61 @@
+ETS2 SAVE STUDIO FREEWARE LICENSE
+
+Copyright © 2026 Nathan Amaral. All rights reserved.
+
+1. License grant
+
+Subject to these terms, Nathan Amaral (the “Copyright Holder”) grants each user a non-exclusive, revocable, non-transferable license to download, install and use the official, unmodified compiled version of ETS2 Save Studio free of charge.
+
+2. Proprietary software
+
+ETS2 Save Studio is proprietary, closed-source software. The source code is not licensed or distributed. No ownership interest, copyright, trademark or other intellectual-property right is transferred under this license.
+
+3. Free redistribution
+
+The official release packages may be redistributed free of charge only when all of the following conditions are met:
+
+- the package was obtained from an official ETS2 Save Studio release;
+- the complete package is redistributed without modification, removal, addition or repackaging;
+- no fee is charged for the software, access to it or its download;
+- all copyright notices, developer credits, license files and unofficial-software notices remain intact;
+- the package is not represented as an official product of SCS Software, Valve or Steam;
+- the package is not bundled with a paid product or service without prior written permission from the Copyright Holder.
+
+Reasonable charges for media or data transmission do not authorize the sale of the software itself.
+
+4. Restrictions
+
+Without prior written permission from the Copyright Holder, users may not:
+
+- sell, rent, sublicense or otherwise commercially exploit ETS2 Save Studio;
+- charge for activation, access, download or use of the software;
+- modify, patch or repackage an official release for redistribution;
+- distribute a modified executable as ETS2 Save Studio;
+- remove or obscure credits, copyright notices, license terms or unofficial-software notices;
+- use the name or visual identity of ETS2 Save Studio to imply authorization or endorsement.
+
+This section does not restrict activities or rights that applicable law expressly permits and does not allow to be waived or excluded.
+
+5. Third-party names and trademarks
+
+ETS2 Save Studio is an independent, unofficial tool. It is not affiliated with, sponsored, endorsed or maintained by SCS Software, Valve or Steam. Euro Truck Simulator 2 and related names, logos and trademarks belong to their respective owners. This license grants no rights to third-party names or trademarks.
+
+6. No warranty
+
+To the maximum extent permitted by applicable law, ETS2 Save Studio is provided “as is” and “as available,” without express or implied warranties. Save editing involves risk. Users are responsible for checking compatibility and maintaining independent backups of important data.
+
+Nothing in this license excludes, restricts or modifies any warranty, guarantee or remedy that applicable law makes non-waivable.
+
+7. Limitation of liability
+
+To the maximum extent permitted by applicable law, the Copyright Holder is not liable for indirect, incidental, special, consequential or similar losses arising from use of or inability to use the software, including loss of data, saves, game progress, profits or availability.
+
+Where liability cannot legally be excluded or limited, it remains subject to the rights and remedies required by applicable law.
+
+8. Statutory rights
+
+Nothing in this license is intended to exclude, limit or waive rights that cannot lawfully be excluded, limited or waived under applicable law.
+
+9. Termination
+
+The license granted under these terms terminates automatically if the user materially breaches them. Upon termination, the user must stop using and distributing the software and delete copies under the user's control, except to the extent that applicable law grants a right to retain or use a copy or requires its preservation. Termination does not affect rights, obligations or liabilities accrued before termination. Provisions concerning ownership, restrictions, warranty, liability and statutory rights survive termination where applicable.

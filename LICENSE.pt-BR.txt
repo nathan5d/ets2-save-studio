@@ -1,0 +1,61 @@
+LICENÇA FREEWARE DO ETS2 SAVE STUDIO
+
+Copyright © 2026 Nathan Amaral. Todos os direitos reservados.
+
+1. Concessão da licença
+
+Sujeito a estes termos, Nathan Amaral (o “Titular”) concede a cada usuário uma licença não exclusiva, revogável e intransferível para baixar, instalar e utilizar gratuitamente a versão oficial, compilada e não modificada do ETS2 Save Studio.
+
+2. Software proprietário
+
+ETS2 Save Studio é um software proprietário de código-fonte fechado. O código-fonte não é licenciado nem distribuído. Esta licença não transfere propriedade, direitos autorais, marcas ou qualquer outro direito de propriedade intelectual.
+
+3. Redistribuição gratuita
+
+Os pacotes oficiais de lançamento podem ser redistribuídos gratuitamente somente quando todas as condições abaixo forem atendidas:
+
+- o pacote tiver sido obtido em uma versão oficial do ETS2 Save Studio;
+- o pacote completo for redistribuído sem modificação, remoção, adição ou reempacotamento;
+- nenhuma cobrança for feita pelo software, pelo acesso ou pelo download;
+- todos os avisos de direitos autorais, créditos do desenvolvedor, arquivos de licença e avisos de software não oficial forem preservados;
+- o pacote não for apresentado como produto oficial da SCS Software, Valve ou Steam;
+- o pacote não for incluído em produto ou serviço pago sem autorização prévia e escrita do Titular.
+
+Cobranças razoáveis por mídia ou transmissão de dados não autorizam a venda do próprio software.
+
+4. Restrições
+
+Sem autorização prévia e escrita do Titular, os usuários não podem:
+
+- vender, alugar, sublicenciar ou explorar comercialmente o ETS2 Save Studio;
+- cobrar pela ativação, acesso, download ou uso do software;
+- modificar, aplicar patches ou reempacotar uma versão oficial para redistribuição;
+- distribuir um executável modificado como ETS2 Save Studio;
+- remover ou ocultar créditos, avisos de direitos autorais, termos da licença ou avisos de software não oficial;
+- utilizar o nome ou a identidade visual do ETS2 Save Studio para sugerir autorização ou endosso.
+
+Esta seção não restringe atividades ou direitos que a legislação aplicável permita expressamente e não permita renunciar ou excluir.
+
+5. Nomes e marcas de terceiros
+
+ETS2 Save Studio é uma ferramenta independente e não oficial. Não é afiliada, patrocinada, endossada ou mantida pela SCS Software, Valve ou Steam. Euro Truck Simulator 2 e seus nomes, logotipos e marcas pertencem aos respectivos titulares. Esta licença não concede direitos sobre nomes ou marcas de terceiros.
+
+6. Ausência de garantia
+
+No limite máximo permitido pela legislação aplicável, o ETS2 Save Studio é fornecido “no estado em que se encontra” e “conforme disponível”, sem garantias expressas ou implícitas. A edição de saves envolve riscos. O usuário é responsável por conferir a compatibilidade e manter backups independentes dos dados importantes.
+
+Nada nesta licença exclui, restringe ou modifica garantia ou medida de reparação que a legislação aplicável considere irrenunciável.
+
+7. Limitação de responsabilidade
+
+No limite máximo permitido pela legislação aplicável, o Titular não é responsável por perdas indiretas, incidentais, especiais, consequenciais ou semelhantes decorrentes do uso ou da impossibilidade de uso do software, incluindo perda de dados, saves, progresso no jogo, lucros ou disponibilidade.
+
+Quando a responsabilidade não puder ser legalmente excluída ou limitada, permanecerão aplicáveis os direitos e medidas de reparação exigidos pela legislação.
+
+8. Direitos garantidos por lei
+
+Nada nesta licença pretende excluir, limitar ou renunciar a direitos que não possam ser legalmente excluídos, limitados ou renunciados conforme a legislação aplicável.
+
+9. Rescisão
+
+A licença concedida por estes termos será rescindida automaticamente se o usuário descumpri-los de forma substancial. Após a rescisão, o usuário deverá interromper o uso e a distribuição do software e excluir as cópias sob seu controle, exceto quando a legislação aplicável garantir o direito de manter ou utilizar uma cópia ou exigir sua preservação. A rescisão não afeta direitos, obrigações ou responsabilidades constituídos antes dela. As disposições sobre titularidade, restrições, garantias, responsabilidade e direitos legais permanecerão vigentes quando aplicável.
