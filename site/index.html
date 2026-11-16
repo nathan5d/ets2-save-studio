@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <title>ETS2 Save Studio</title>
+  <meta name="description" content="Choose your language to discover ETS2 Save Studio, the free save editor for Euro Truck Simulator 2.">
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+  <link rel="alternate" hreflang="en" href="https://nathan5d.github.io/ets2-save-studio/en/">
+  <link rel="alternate" hreflang="pt-BR" href="https://nathan5d.github.io/ets2-save-studio/pt-br/">
+  <link rel="alternate" hreflang="x-default" href="https://nathan5d.github.io/ets2-save-studio/en/">
+  <style>
+    :root { color-scheme: dark; font-family: Inter, system-ui, sans-serif; background: #11141d; color: #fff; }
+    body { min-height: 100vh; display: grid; place-items: center; margin: 0; text-align: center; }
+    main { padding: 2rem; }
+    img { width: 88px; border-radius: 22px; }
+    p { color: #aeb7c7; }
+    a { color: #f9a230; font-weight: 700; margin: 0 .5rem; }
+  </style>
+  <script>
+    (() => {
+      let preferred = "";
+      try { preferred = localStorage.getItem("ets2ss-language") || ""; } catch (_) {}
+      const language = preferred || (navigator.language || "en").toLowerCase();
+      const target = language.startsWith("pt") ? "pt-br/" : "en/";
+      window.location.replace(target + window.location.hash);
+    })();
+  </script>
+</head>
+<body>
+  <main>
+    <img src="assets/images/logo.png" alt="ETS2 Save Studio">
+    <h1>ETS2 Save Studio</h1>
+    <p>Select your language / Selecione seu idioma</p>
+    <a href="en/" data-language="en">English</a>
+    <a href="pt-br/" data-language="pt-br">Português (Brasil)</a>
+  </main>
+</body>
+</html>
