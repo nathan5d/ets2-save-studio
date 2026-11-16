@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nathan5d.github.io/ets2-save-studio/sitemap.xml
+Sitemap: https://ets2.nathanamaral.com.br/sitemap.xml
