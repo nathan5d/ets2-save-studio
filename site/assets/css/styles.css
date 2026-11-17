@@ -497,6 +497,7 @@ a {
 
 .preview-stage img {
   width: 100%;
+  height: auto;
   border-radius: 12px 12px 0 0;
   box-shadow: 0 -2px 46px rgba(0, 0, 0, 0.4);
 }
@@ -616,57 +617,70 @@ a {
   font-size: 0.84rem;
 }
 
-.steps {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  counter-reset: steps;
-  gap: 22px;
+.tutorial-section {
+  border-bottom: 1px solid #dfe4ec;
 }
 
-.step {
-  position: relative;
-  min-height: 290px;
-  padding: 32px;
-  background: var(--navy-2);
-  border: 1px solid var(--line);
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.tutorial-card {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  align-items: start;
+  gap: 20px;
+  padding: 30px;
+  background: var(--white);
+  border: 1px solid #dfe4ec;
   border-radius: var(--radius);
-  counter-increment: steps;
 }
 
-.step::before {
+.tutorial-number {
   display: grid;
-  width: 52px;
-  height: 52px;
-  margin-bottom: 60px;
+  width: 48px;
+  height: 48px;
   color: var(--navy);
-  content: "0" counter(steps);
   background: var(--orange);
   border-radius: 50%;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 900;
   place-items: center;
 }
 
-.step:not(:last-child)::after {
-  position: absolute;
-  top: 57px;
-  right: -24px;
-  z-index: 2;
-  width: 26px;
-  height: 1px;
-  content: "";
-  background: var(--orange);
+.tutorial-card h3 {
+  margin: 3px 0 14px;
+  color: var(--navy);
+  font-size: 1.12rem;
+  letter-spacing: -0.02em;
 }
 
-.step h3 {
-  margin: 0 0 9px;
-  font-size: 1.18rem;
-}
-
-.step p {
+.tutorial-list {
   margin: 0;
-  color: var(--muted);
+  padding-left: 19px;
+  color: #5d6778;
   font-size: 0.9rem;
+}
+
+.tutorial-list li + li {
+  margin-top: 9px;
+}
+
+.tutorial-list li::marker {
+  color: #a55f00;
+}
+
+.tutorial-note {
+  max-width: 920px;
+  margin: 24px auto 0;
+  padding: 17px 20px;
+  color: #5d4b31;
+  background: #fff7eb;
+  border-left: 3px solid var(--orange);
+  border-radius: 0 12px 12px 0;
+  font-size: 0.86rem;
 }
 
 .download-panel {
@@ -915,25 +929,8 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .steps {
+  .tutorial-grid {
     grid-template-columns: 1fr;
-  }
-
-  .step {
-    min-height: 0;
-  }
-
-  .step::before {
-    margin-bottom: 30px;
-  }
-
-  .step:not(:last-child)::after {
-    top: auto;
-    right: auto;
-    bottom: -23px;
-    left: 57px;
-    width: 1px;
-    height: 23px;
   }
 
   .footer-grid {
@@ -1003,6 +1000,17 @@ a {
 
   .feature-card {
     min-height: 0;
+  }
+
+  .tutorial-card {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 24px;
+  }
+
+  .tutorial-number {
+    width: 44px;
+    height: 44px;
   }
 
   .preview-stage {
