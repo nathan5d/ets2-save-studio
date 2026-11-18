@@ -3,6 +3,8 @@
   const menuButton = document.querySelector(".menu-toggle");
   const menu = document.querySelector(".nav-links");
   const languageLinks = document.querySelectorAll("[data-language]");
+  const languageSwitcher = document.querySelector(".language-switcher");
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   const updateHeader = () => header?.classList.toggle("scrolled", window.scrollY > 16);
   updateHeader();
@@ -28,13 +30,60 @@
     });
   }
 
+  let languageNavigationPending = false;
+
+  const resetLanguageState = () => {
+    languageNavigationPending = false;
+    document.body.classList.remove("language-changing");
+    languageSwitcher?.classList.remove("is-switching");
+    languageSwitcher?.removeAttribute("aria-busy");
+    languageSwitcher?.querySelectorAll(".is-loading").forEach((link) => link.classList.remove("is-loading"));
+    document.querySelector(".language-status")?.remove();
+  };
+
+  window.addEventListener("pageshow", resetLanguageState);
+
   languageLinks.forEach((link) => {
-    link.addEventListener("click", () => {
+    link.addEventListener("click", (event) => {
       try {
         localStorage.setItem("ets2ss-language", link.dataset.language);
       } catch (_) {
         // The site remains fully usable when browser storage is disabled.
       }
+
+      if (
+        event.defaultPrevented ||
+        event.button !== 0 ||
+        event.metaKey ||
+        event.ctrlKey ||
+        event.shiftKey ||
+        event.altKey ||
+        languageNavigationPending
+      ) return;
+
+      const destination = new URL(link.href, window.location.href);
+      if (destination.pathname === window.location.pathname) return;
+
+      event.preventDefault();
+      languageNavigationPending = true;
+
+      const targetLanguage = link.dataset.language;
+      const selectedButton = languageSwitcher?.querySelector(`[data-language="${targetLanguage}"]`);
+      const status = document.createElement("span");
+      status.className = "sr-only language-status";
+      status.setAttribute("role", "status");
+      status.setAttribute("aria-live", "polite");
+      status.textContent = targetLanguage === "pt-br" ? "Aplicando português…" : "Applying English…";
+
+      languageSwitcher?.classList.add("is-switching");
+      languageSwitcher?.setAttribute("aria-busy", "true");
+      selectedButton?.classList.add("is-loading");
+      languageSwitcher?.append(status);
+      document.body.classList.add("language-changing");
+
+      requestAnimationFrame(() => {
+        window.setTimeout(() => window.location.assign(destination.href), prefersReducedMotion ? 40 : 180);
+      });
     });
   });
 
